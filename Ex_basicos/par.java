@@ -1,3 +1,4 @@
+package Ex_basicos;
 public class par {
     public static void main(String[] args) {
         int i;

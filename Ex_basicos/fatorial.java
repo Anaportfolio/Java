@@ -1,3 +1,4 @@
+package Ex_basicos;
 import java.util.Scanner;
 
 public class fatorial {

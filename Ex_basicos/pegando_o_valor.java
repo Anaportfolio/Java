@@ -1,3 +1,4 @@
+package Ex_basicos;
 import java.util.Scanner;
 public class pegando_o_valor {
     public static void main(String[] args) {

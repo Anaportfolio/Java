@@ -1,3 +1,4 @@
+package Ex_basicos;
 public class media_impar {
     public static void main(String[] args) {
         int m = 0;
