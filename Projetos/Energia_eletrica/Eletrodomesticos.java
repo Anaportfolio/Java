@@ -1,4 +1,4 @@
-package TESTE;
+package Projetos.Energia_eletrica;
 
 public class Eletrodomesticos {
      //Variaveis dos aparelhos domesticos eletronicos do usuario

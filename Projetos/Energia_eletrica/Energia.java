@@ -1,4 +1,4 @@
-package TESTE;
+package Projetos.Energia_eletrica;
 
 public class Energia extends Eletrodomesticos {
     /*
