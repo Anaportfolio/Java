@@ -7,8 +7,8 @@ public class Principal {
   
     public static void main(String[] args) {
         
-        try (// Pegando a quantidade de Itens da lista 
-        Scanner valor = new Scanner(System.in)) {
+        // Pegando a quantidade de Itens da lista
+        try (Scanner valor = new Scanner(System.in)) {
             System.out.print("Digite o número de intes da lista: ");
             int numItem = valor.nextInt();
             // System.out.print("A quantidade de intes é: " + numItem);
