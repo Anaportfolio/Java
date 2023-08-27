@@ -10,13 +10,13 @@ public class Principal {
         // Pegando a quantidade de Alunos 
         try (Scanner valor = new Scanner(System.in)) {
             System.out.print("Digite o número de alunos: ");
-            int numItem = valor.nextInt();
+            int numDeAlunos = valor.nextInt();
 
             // Criando o Array Alunos
             ArrayList <Aluno> aluno = new ArrayList<Aluno>();
 
             // Pegando informações dos Alunos 
-            for(int i = 1; i<=numItem; i++){
+            for(int i = 1; i<=numDeAlunos; i++){
                 System.out.println(i + "°" + "Aluno"); 
                 valor.nextLine();
 
