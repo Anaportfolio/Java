@@ -5,6 +5,7 @@ public class Aluno {
     private String name;
     private String ra;
 
+    // Chamando o construtor 
     Curso curso = new Curso();
 
     public String getName() {
