@@ -32,6 +32,7 @@ public class Principal {
                 System.out.print("Digite o semestre: ");
                 int semestreAluno = valor.nextInt();
 
+
                 // Chamando o construtor 
                 Aluno alunos = new Aluno();
 
@@ -50,6 +51,11 @@ public class Principal {
             for( Aluno alunos : aluno){
                 System.out.print( "Nome: "+ alunos.getName() + " seu RA é: " + alunos.getRa() + " o curso cursado é: " + alunos.curso.getName() +" está no semestre: " + alunos.curso.getSemestre() +"°" +"\n");
             }
+
+            System.out.println("---------------------------------------------------------------");
+            
+            // Exibindo alunos que cursam Ciência da Computação (Em desenvolvimento)
+            System.out.print("OS ALUNOS QUE FAZEM CIENCIA DA COMPUTACAO");
         }
     }
 }
