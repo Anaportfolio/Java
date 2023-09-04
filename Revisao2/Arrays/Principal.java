@@ -5,8 +5,10 @@ import java.util.ArrayList;
 public class Principal {
     public static void main(String[] args) {
 
+        //  Criando um ArrayList 
         ArrayList<Aluno> aluno = new ArrayList<Aluno>();
 
+        // Adicionando os dados dos Alunos
         Aluno a1 = new Aluno();
         a1.setNome("Pedro");
         a1.setRa("HE7R8A");
@@ -21,17 +23,21 @@ public class Principal {
         a2.curso.setSemestre(2);
         aluno.add(a2);
 
+        // Exibindo os dados dos Alunos 
         for(int i = 0; i <= aluno.size(); i++){
             Aluno encontrado = aluno.get(i);
             System.out.println("Nome: " + encontrado.getNome() + "\n" + "RA: " + encontrado.getRa() + "\n" + "Curso: " + encontrado.curso.getNome() + "\n" + "Semestre: " + encontrado.curso.getSemestre() + "\n");
         }
 
+        // ERRO
+        // Removendo o segundo Aluno
         aluno.remove(a2);
         for(int i = 0; i <= aluno.size(); i++){
             Aluno encontrado = aluno.get(i);
             System.out.println("Nome: " + encontrado.getNome() + "\n" + "RA: " + encontrado.getRa() + "\n" + "Curso: " + encontrado.curso.getNome() + "\n" + "Semestre: " + encontrado.curso.getSemestre() + "\n");
         }
 
+        // Adicionando o terceiro Aluno
         Aluno a3 = new Aluno();
         a3.setNome("Davi");
         a3.setRa("UEJ96E");
@@ -45,6 +51,7 @@ public class Principal {
         }
 
 
+        //  Exibindo Alunos que cursam Engenharia 
         for(int i = 0; i <= aluno.size(); i++){
             Aluno encontrado = aluno.get(i);
             System.out.println("Nome: " + encontrado.getNome() + "\n" + "RA: " + encontrado.getRa() + "\n" + "Curso: " + encontrado.curso.getNome() + "\n" + "Semestre: " + encontrado.curso.getSemestre() + "\n");
