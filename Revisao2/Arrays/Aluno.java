@@ -2,21 +2,23 @@ package Revisao2.Arrays;
 
 public class Aluno {
     
-    private String name;
-    private String ra;
-
-    // Chamando o construtor 
+    public String nome;
+    public String ra;
     Curso curso = new Curso();
 
-    public String getName() {
-        return name;
+
+    public String getNome() {
+        return nome;
     }
-    public void setName(String name) {
-        this.name = name;
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
+
     public String getRa() {
         return ra;
     }
+
     public void setRa(String ra) {
         this.ra = ra;
     }

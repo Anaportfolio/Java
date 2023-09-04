@@ -1,14 +1,15 @@
-package Revisao2.Arrays;
+package Projetos.Lista_Alunos;
 
 public class Curso {
     
-    private String nome;
+    private String name;
     private int semestre;
-    public String getNome() {
-        return nome;
+    
+    public String getName() {
+        return name;
     }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
     public int getSemestre() {
         return semestre;
