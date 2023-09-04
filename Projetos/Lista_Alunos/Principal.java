@@ -48,7 +48,7 @@ public class Principal {
             // Exibindo os dados dos Alunos
             System.out.println("LISTA DE ALUNOS");
             for( Aluno alunos : aluno){
-                System.out.print( "Nome: "+ alunos.getName() + " seu RA é: " + alunos.getRa() + " o curso cursado é: " + alunos.curso.getName() +" está no semestre: " + alunos.curso.getSemestre() +"°" +"\n");
+                System.out.print( "Nome: "+ alunos.getName()+ "\n" + " seu RA é: " + alunos.getRa()+ "\n" + " o curso cursado é: " + alunos.curso.getName() + "\n" +" está no semestre: " + alunos.curso.getSemestre() +"°" +"\n" + "\n");
             }
             
         }
