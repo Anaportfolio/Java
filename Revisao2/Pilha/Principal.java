@@ -5,8 +5,10 @@ import java.util.Stack;
 public class Principal {
     public static void main(String[] args) {
         
+        // Criando a Pilha
         Stack<Tarefa> pilha = new Stack<>();
 
+        // Dados das Tarefas
         Tarefa t1 = new Tarefa();
         t1.desc = "Pesquisa";
         t1.resp = "Joao";
@@ -27,6 +29,7 @@ public class Principal {
         pilha.push(t3);
 
 
+        // Exibindo os dados
         for(Tarefa t : pilha){
             System.out.print(t.desc + "\n" + t.resp +"\n" + t.prazo + "\n" + "\n");
         }
