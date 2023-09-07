@@ -30,6 +30,7 @@ public class Principal {
         fila.add(p3);
 
         //  Exibindo os dados das Pessoas 
+        System.out.println("EXIBINDO TODOS OS ALUNOS CADASTRADOS ");
         for(Pessoa i : fila){
             System.out.println("Nome: " + i.getNome() + "\n" + "Telefone: " + i.getTel() + "\n" + "Email: " + i.getEmail() + "\n");
         }
