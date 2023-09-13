@@ -1,4 +1,5 @@
-package tela;
+package tela.exibindo_nome;
+
 
 import java.awt.EventQueue;
 
