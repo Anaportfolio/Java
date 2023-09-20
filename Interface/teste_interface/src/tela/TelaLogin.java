@@ -1,4 +1,5 @@
-package Interface.Interfac.src.tela;
+package tela;
+
 
 import java.awt.EventQueue;
 
