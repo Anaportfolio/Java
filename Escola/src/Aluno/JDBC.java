@@ -21,8 +21,8 @@ public class JDBC {
 	public JDBC() {
 		String driver ="com.mysql.cj.jdbc.Driver"; 
 	 	String url = "jdbc:mysql://localhost:3306/bd_aluno"; 
-	 	String user = "root"; 
-		String password = "teste123"; 
+	 	String user = " "; 
+		String password = " "; 
 		
 		try {
 			Class.forName(driver);
