@@ -17,7 +17,7 @@ public class JDBC {
 	public Statement smt;
 	
 	
-//	Fazendo conecxão com o banco 
+//	Fazendo conexão com o banco 
 	public JDBC() {
 		String driver ="com.mysql.cj.jdbc.Driver"; 
 	 	String url = "jdbc:mysql://localhost:3306/bd_aluno"; 
