@@ -25,6 +25,9 @@ public class Programa {
 		
 		em.getTransaction().commit();
 		System.out.print("Pronto!");
+
+		em.close();
+		emf.close();
 	}
 
 }
